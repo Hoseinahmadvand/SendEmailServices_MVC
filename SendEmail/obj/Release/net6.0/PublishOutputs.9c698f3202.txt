@@ -1,0 +1,7 @@
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\SendEmail.exe
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\SendEmail.dll
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\SendEmail.deps.json
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\SendEmail.runtimeconfig.json
+C:\Users\baneh90\Desktop\SendEmailServices\SendEmail\obj\Release\net6.0\PubTmp\Out\SendEmail.pdb

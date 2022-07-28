@@ -1,0 +1,68 @@
+﻿@model SendEmail.Models.Contact
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="card card-info" dir="rtl">
+              <div class="card-header">
+                <h3 class="card-title">ارتباط با ما</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+             
+
+              <form  asp-controller="Home" asp-action="Send" role="form" enctype="multipart/form-data" >
+                  <input type="hidden" />
+                   <asp:Label ID="lbl1"  runat="server" Text=""></asp:Label>
+                <div class="card-body">
+                  <div class="form-group col-md-6">
+                    <label for="exampleInputEmail1">نام و نام خانوادگی</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                  <br />
+                  <div class="form-group col-md-6">
+                    <label for="exampleInputEmail1">آدرس ایمیل</label>
+                    <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                  <br />
+                  <div class="form-group col-md-6">
+                    <label for="exampleInputEmail1">تلفن</label>
+                    <input type="tel" asp-for="Phone" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                  <br />
+                  <div class="form-group col-md-6">
+                    <label for="exampleInputEmail1">عنوان پیام</label>
+                    <input type="text" asp-for="Subject" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                  <br />
+                  <div class="form-group col-md-12">
+                    <label for="exampleInputEmail1">آدرس </label>
+                    <input type="text" asp-for="Adress" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                  <br />
+                  <div class="form-group col-md-12">
+                    <label for="exampleInputEmail1">پیام </label>
+                    <input type="text" asp-for="Content" class="form-control" id="exampleInputEmail1" >
+                  </div>
+                  <br />
+                  <div class="form-group col-md-12">
+                    <label for="exampleInputFile">ارسال فایل</label>
+                    <div class="input-group">
+                      <div class="custom-file col-md-12">
+              <input type="file" class="custom-file-input" id="exampleInputFile">
+                        <span class="input-group-text" id="">انتخاب فایل</span>
+                      </div>
+                    </div>
+                  </div>
+               
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary col-12">ارسال</button>
+                </div>
+              </form>
+              @ViewBag.msg
+            </div>
